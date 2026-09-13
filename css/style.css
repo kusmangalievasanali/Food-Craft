@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: whitesmoke;
+    color: darkslategray;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: midnightblue;
+}
+
+
+#main-header {
+    background-color: darkblue;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+
+#home {
+    border-bottom: 2px solid crimson;
+}
+
+#sportfood {
+    color: lightyellow;
+}
+
+nav a:hover {
+    color: crimson;
+}
+
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+
+.info {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.reason {
+    background-color: snow;
+    padding: 1.5rem;
+    border-radius: 6px;
+    border-left: 5px solid darkblue;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border: 4px solid midnightblue;
+}
+
+
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+}
+
+footer ol {
+    display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#main-header h1 {
+    color:white;
+}
+
+.food-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.95rem;
+}
+
+.food-table th, .food-table td {
+    padding: 12px 15px;
+    border: 1px solid lightgray;
+    text-align: left;
+}
+
+.food-table th {
+    background-color: darkblue;
+    color: white;
+}
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: midnightblue;
+}
+
+.form-group input, 
+.form-group select, 
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: snow;
+}
+
+.submit-btn {
+    background-color: darkblue;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: crimson;
+}
+
+#heathy-meal{
+    width: 500px;
+    height: 200px;
+    display: block;
+    border-radius: 10pt; 
+}
